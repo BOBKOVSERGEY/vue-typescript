@@ -3,6 +3,17 @@
  import Base from '@/components/common/Base.vue'
  import BaseWithInterface from '@/components/common/BaseWithInterface.vue'
  import BaseExportPropsFromFile from '@/components/common/BaseExportPropsFromFile.vue'
+ import { ref } from 'vue'
+
+
+ // typing ref
+ const year = ref<string | number>('2022');
+
+ console.log(year.value)
+
+ const n = ref<number>(1);
+
+ console.log(n.value)
 </script>
 
 <template>
