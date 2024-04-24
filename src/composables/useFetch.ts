@@ -7,6 +7,7 @@ type FetchResponse<T> = {
 }
 
 export function useFetch<T>(url: string): FetchResponse<T> {
+
   const data = ref<T | null>(null);
   const loading = ref<boolean>(false);
   const error = ref<Error | null>(null);
