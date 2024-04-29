@@ -1,4 +1,4 @@
-page 212
+page 228 create userprofile
 
 
 https://github.com/mayashavin/learning-vue-app/blob/main/ch05/src/composables/useFetch.ts

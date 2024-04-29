@@ -7,7 +7,6 @@ export const useGitHubRepos = (username: string) => {
   const response = useFetch<Repo>(
     `https://api.github.com/users/${username}/repos`
   )
-
   return {
     repos: response.data,
     loading: response.loading,
